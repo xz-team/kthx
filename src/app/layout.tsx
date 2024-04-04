@@ -2,9 +2,9 @@ import "./globals.css";
 
 import type { Metadata } from "next";
 
-import { Aldrich } from "next/font/google";
+// import { Aldrich } from "next/font/google";
 
-const variableFont = Aldrich({ subsets: ["latin"], weight: "400" });
+// const variableFont = Aldrich({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "kthx",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={variableFont.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

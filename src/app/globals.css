@@ -109,7 +109,6 @@ a {
 .CountdownTimer {
   display: flex;
   justify-content: space-between;
-  font-family: "Aldrich";
   text-align: center;
   padding: 40px;
   margin: 40px;
